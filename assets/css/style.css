@@ -8,3 +8,12 @@ center {
   margin: auto;
   width: 960px;
 }
+
+style {
+  border: auto solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: lightblue;
+}
