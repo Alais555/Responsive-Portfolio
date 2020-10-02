@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/96/21/A1swRf.jpg");
+  
+  width: 100%;
+  height: 100%;
+
+/* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  color: rgb(253, 207, 81);
+}
+
+h1 {
+  color: rgb(33, 200, 212);
+}
