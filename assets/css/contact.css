@@ -1,37 +1,45 @@
+p {
+  color: rgb(111, 224, 111);
+  font-size: 22px;
+  font-family: 'LCD14';
+  font-weight: normal;
+  font-style: auto;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-:root {
+ body {
   /* Base font size */
-  font-size: 10px;
+  font-size: 16px;
   /* Set neon color */
   --neon-text-color: #f40;
   --neon-border-color: #08f;
+  background-color: rgb(34, 34, 34);
+  display: auto;
 }
 
-
-
-h2 {
+h1 {
   font-size: 13rem;
   font-weight: 200;
   font-style: italic;
   color: #fff;
-  padding: 4rem 6rem 5.5rem;
-  border: 0.4rem solid #fff;
+  padding: 2rem 4rem 5.5rem;
+  border: 0.2rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;
 }
 
-h2::-moz-selection {
+h1::-moz-selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h2::selection {
+h1::selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h2:focus {
+h1:focus {
   outline: none;
 }
 
