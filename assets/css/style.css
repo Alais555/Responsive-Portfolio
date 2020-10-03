@@ -1,8 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
   background: #999;
   width: 100%;
   height: 100%;
-  
+  background-image: url('https://i.pinimg.com/originals/e2/63/06/e26306b52ba6563ac041d3c562b1634a.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  color: white;
+}
+
+p{
+  color: aliceblue;
 }
 
 center {
@@ -18,6 +33,7 @@ style {
   margin-left: auto;
   background-color: lightblue;
 }
+
 html {
   height: 100%;
   color: #777;
