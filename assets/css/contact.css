@@ -29,7 +29,7 @@ h1 {
   padding: auto;
   padding-top: 2rem;
   border: 0.4rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;     
 }
